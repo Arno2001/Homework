@@ -1,6 +1,6 @@
-let sum = 1, i = 2;
-while(i <= 5){
-    sum *= i;
-    i++;
+function factorial(n){
+    let i = 1;
+    for(i; n > 1; i*=n, n--);
+    console.log(i);
 }
-console.log(sum);
+factorial(7);
