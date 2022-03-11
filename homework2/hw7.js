@@ -7,7 +7,6 @@ for(let i of arr){
         obj[i] = 1;
     }
 }
-console.log(obj);
 let prop = Object.keys(obj);
 let result = prop[0];
 for(let i = 0; i < prop.length; i++){
